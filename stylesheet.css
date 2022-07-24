@@ -1,0 +1,130 @@
+/*Changed the color of the headers to have the same color as the MY Beautiful Dark Twisted Fantasy album cover.
+they have a shadow that also takes a color used in that album cover.*/
+h3{
+    color: #ce263f;
+    text-align: center;
+    text-shadow: 2px 2px 8px #0e817d;
+}
+/*changed the color of the entire background for each of the pages*/
+body{
+    background-color: #F0EBE3;
+}
+/*Aligned the album covers to the center of the page*/    
+.album-cover{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.container{
+    position: relative;
+    width: 50%;
+    font-size: x-large;
+    font-family:Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    align-items: center;
+}
+
+div.box{
+   text-align: center; 
+}
+
+ul.container{
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+}
+
+#page-selector{
+    text-align: center;
+}
+/*Styled the tracklist to keep it centered right under the album covers*/
+#about-album{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-style: unset;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+
+    display: inline-block;
+    text-align: left;
+}
+
+
+
+
+
+/*Created a navigation bar that will change the pages and while the current page is selected it will highlight it*/
+body {
+    margin: 0;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(203, 206, 68);
+    
+  }
+  
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: dotted;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #08b4b1bd;
+    color: rgb(0, 0, 0);
+  }
+
+/*This created a box model around a paragraph*/
+.descriptive-box{
+  border-style: dashed;
+  width:auto;
+  padding: 10px;
+  border: 5px solid #F2AA80;
+  margin: 0;
+}
+
+/*Styled the table to have a dashed border all around*/ 
+table{
+  text-align: center;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th,td{
+  padding: 10px;
+  text-align: center;
+  border-style:dashed;
+  border-color: #F2AA80;
+}
+
+tr:nth-child(even){
+  background-color: #0e817d71;
+}
+
+tr:nth-child(odd){
+  background-color: #db495f9c;
+}
+
+form{
+  text-align: center;
+}
+
+
+
+ 
+   
